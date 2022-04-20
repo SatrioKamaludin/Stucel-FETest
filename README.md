@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# STUCEL-FE Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Responsive Web Use: \
+Web: 1920x1080 \
+Mobile: 480x854
 
 ## Available Scripts
 
