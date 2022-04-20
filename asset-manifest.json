@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Stucel-FETest/static/css/main.3ace1f78.css",
+    "main.js": "/Stucel-FETest/static/js/main.37c6ef6a.js",
+    "index.html": "/Stucel-FETest/index.html",
+    "main.3ace1f78.css.map": "/Stucel-FETest/static/css/main.3ace1f78.css.map",
+    "main.37c6ef6a.js.map": "/Stucel-FETest/static/js/main.37c6ef6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ace1f78.css",
+    "static/js/main.37c6ef6a.js"
+  ]
+}
