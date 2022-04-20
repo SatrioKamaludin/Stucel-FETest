@@ -1,0 +1,170 @@
+.navbarWeb {
+    padding-bottom: 20px;
+
+    @media only screen and (max-width: 480px) {
+        display: none;
+    }
+
+    .Navbar {
+        padding-bottom: 10px;
+
+        .Collapse {
+            .Nav {
+                .NavItem {
+                    display: inline;
+                    margin: auto;
+
+                    .Dropdown {
+                        .DropdownToggle {
+                            color: black;
+                            font-size: 14px;
+                            font-weight: 600;
+                            padding: 0.5rem 0.75rem;
+
+                            &:hover {
+                                cursor: pointer;
+                                color: rgb(0, 110, 255);
+                            }
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                width: 100%;
+                                transform: scaleX(0);
+                                height: 5px;
+                                bottom: -20px;
+                                left: 0;
+                                background-color: rgb(0, 110, 255);
+                                transform-origin: bottom right;
+                                transition: transform 0.25s ease-out;
+                            }
+
+                            &:hover::after {
+                                transform: scaleX(1);
+                                transform-origin: bottom left;
+                            }
+                        }
+
+                        .ourSynergy {
+                            margin-left: -350%;
+                            margin-top: 15px;
+                            padding: 0px;
+                            border: none;
+                            min-width: max-content;
+
+                            .ourSynergySummary {
+                                min-width: 45rem;
+                                background-color: rgb(241, 241, 241);
+                                display: flex;
+                                width: 200px;
+
+                                img {
+                                    width: 300px;
+                                    margin: 30px;
+                                }
+
+                                .Description {
+                                    padding-top: 30px;
+                                }
+                            }
+
+                            .ourSynergyMenus {
+                                padding-top: 30px;
+                                font-weight: 700;
+                                flex-direction: column;
+                                flex-wrap: wrap;
+                                display: flex;
+
+                                li {
+                                    margin-left: 30px;
+                                    margin-block: 5px;
+                                    color: dimgray;
+                                    line-height: 20px;
+                                    flex: 0 0 20%;
+
+                                    &:hover {
+                                        color: rgb(0, 110, 255);
+                                        cursor: pointer;
+                                    }
+                                }
+
+                            }
+                        }
+
+                        .BusinessPortofolio {
+                            margin-left: -315%;
+                            margin-top: 15px;
+                            padding: 0px;
+                            border: none;
+                            min-width: max-content;
+                            .BusinessPortofolioSummary {
+                                min-width: 45rem;
+                                background-color: rgb(241, 241, 241);
+                                display: flex;
+                                width: 200px;
+                                img {
+                                    width: 300px;
+                                    margin: 30px;
+                                }
+
+                                .Description {
+                                    padding-top: 30px;
+                                }
+
+                            }
+                            .BusinessPortofolioMenus {
+                                padding-top: 30px;
+                                font-weight: 700;
+                                flex-direction: column;
+                                flex-wrap: wrap;
+                                display: flex;
+
+                                li {
+                                    margin-left: 30px;
+                                    margin-block: 5px;
+                                    color: dimgray;
+                                    line-height: 20px;
+                                    flex: 0 0 20%;
+
+                                    &:hover {
+                                        color: rgb(0, 110, 255);
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+
+                        .menuMedia {
+                            margin-top: 14px;
+
+                            li {
+                                font-weight: 450;
+                                padding-left: 10px;
+                                padding-block-end: 5px;
+                                color: rgb(128, 128, 128);
+
+                                &:hover {
+                                    cursor: pointer;
+                                    color: rgb(0, 110, 255);
+                                }
+                            }
+                        }
+                    }
+
+                    .NavLink {
+                        color: black;
+                        font-size: 14px;
+                        font-weight: 600;
+                        padding: 0.5rem 0.75rem;
+
+                        &:hover {
+                            cursor: pointer;
+                            color: rgb(0, 110, 255);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

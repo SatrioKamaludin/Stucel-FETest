@@ -1,0 +1,61 @@
+.main {
+    padding-top: 106px;
+    border-top: 20px;
+    @media only screen and (max-width: 480px) {
+        padding-top: 0px;
+    }
+    .slidesWeb {
+        .line {
+            background-color: aqua;
+        }
+        .slidesTitle {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bolder;
+            margin: 50px;
+            @media only screen and (max-width: 480px) {
+                margin-bottom: 20px;
+                margin-top: 0px;
+            }
+        }
+
+        .owl-theme {
+            .owl-stage {
+                left: 61%;
+                @media only screen and (max-width: 480px) {
+                    left: 88%;
+                }
+            }
+            .Card {
+                .CardImgOverlay {
+                    .exploretrip {
+                        padding-top: 150%;
+                        letter-spacing: 3px;
+                    }
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .owl-nav {
+                display: block;
+                font-size: 50px;
+                margin: 0px;
+                @media only screen and (max-width: 480px) {
+                    display: none;
+                }
+
+                button.owl-prev {
+                    margin-right: 50px;
+                }
+            }
+
+            .owl-dots {
+                display: none;
+            }
+        }
+    }
+
+}

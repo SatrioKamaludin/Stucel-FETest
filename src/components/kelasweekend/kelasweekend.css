@@ -1,0 +1,156 @@
+.main {
+  margin: 20px;
+}
+
+.main .card1 .gratis {
+  margin-inline: 130px;
+  padding: 20px;
+  font-weight: 600;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #ffa600;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .card1 .gratis {
+    margin-inline: 40px;
+  }
+}
+
+.main .card1 .title {
+  font-family: 'Times New Roman', Times, serif;
+  color: #ad0000;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: xx-large;
+}
+
+.main .card1 .date {
+  padding-bottom: 10px;
+}
+
+.main .card1 .bill {
+  padding-bottom: 10px;
+}
+
+.main .card1 p {
+  padding-top: 10px;
+}
+
+.main .card1 .footer {
+  background-color: #ad0000;
+  color: white;
+  text-align: center;
+  margin-inline: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .card1 .footer {
+    margin-inline: 40px;
+  }
+}
+
+.main .card2 .baru {
+  margin-inline: 130px;
+  padding: 20px;
+  font-weight: 600;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #0044ff;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .card2 .baru {
+    margin-inline: 40px;
+  }
+}
+
+.main .card2 .gratis {
+  margin-inline: 130px;
+  padding: 0px;
+  font-weight: 600;
+  background-color: #7a7a7a;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .card2 .gratis {
+    margin-inline: 40px;
+  }
+}
+
+.main .card2 img {
+  top: 20px;
+  width: 351px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: translate(0px, -35px);
+          transform: translate(0px, -35px);
+}
+
+@media only screen and (max-width: 480px) {
+  .main .card2 img {
+    width: 360px;
+  }
+}
+
+.main .card2 .info {
+  background-color: white;
+  margin-inline: 130px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style: solid;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-width: 1px;
+  border-top: 0ch;
+  border-color: #bebebe;
+  -webkit-transform: translate(0px, -35px);
+          transform: translate(0px, -35px);
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .card2 .info {
+    margin-inline: 40px;
+  }
+}
+
+.main .card2 .info .weekend {
+  padding-top: 20px;
+  color: #ffa600;
+}
+
+.main .card2 .info .title {
+  font-family: 'Times New Roman', Times, serif;
+  color: #ad0000;
+  padding-bottom: 10px;
+  font-size: xx-large;
+  padding-bottom: 40px;
+}
+
+.main .card2 .info .date {
+  padding-bottom: 20px;
+}
+
+.main .card2 .info .footer {
+  text-align: center;
+  background-color: white;
+  color: #ad0000;
+  margin-left: -20px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=kelasweekend.css.map */

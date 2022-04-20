@@ -1,0 +1,199 @@
+.navbarWeb {
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbarWeb {
+    display: none;
+  }
+}
+
+.navbarWeb .Navbar {
+  padding-bottom: 10px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem {
+  display: inline;
+  margin: auto;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .DropdownToggle {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .DropdownToggle:hover {
+  cursor: pointer;
+  color: #006eff;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .DropdownToggle::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 5px;
+  bottom: -20px;
+  left: 0;
+  background-color: #006eff;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .DropdownToggle:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .ourSynergy {
+  margin-left: -350%;
+  margin-top: 15px;
+  padding: 0px;
+  border: none;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .ourSynergy .ourSynergySummary {
+  min-width: 45rem;
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .ourSynergy .ourSynergySummary img {
+  width: 300px;
+  margin: 30px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .ourSynergy .ourSynergySummary .Description {
+  padding-top: 30px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .ourSynergy .ourSynergyMenus {
+  padding-top: 30px;
+  font-weight: 700;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .ourSynergy .ourSynergyMenus li {
+  margin-left: 30px;
+  margin-block: 5px;
+  color: dimgray;
+  line-height: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .ourSynergy .ourSynergyMenus li:hover {
+  color: #006eff;
+  cursor: pointer;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .BusinessPortofolio {
+  margin-left: -315%;
+  margin-top: 15px;
+  padding: 0px;
+  border: none;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .BusinessPortofolio .BusinessPortofolioSummary {
+  min-width: 45rem;
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .BusinessPortofolio .BusinessPortofolioSummary img {
+  width: 300px;
+  margin: 30px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .BusinessPortofolio .BusinessPortofolioSummary .Description {
+  padding-top: 30px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .BusinessPortofolio .BusinessPortofolioMenus {
+  padding-top: 30px;
+  font-weight: 700;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .BusinessPortofolio .BusinessPortofolioMenus li {
+  margin-left: 30px;
+  margin-block: 5px;
+  color: dimgray;
+  line-height: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .BusinessPortofolio .BusinessPortofolioMenus li:hover {
+  color: #006eff;
+  cursor: pointer;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .menuMedia {
+  margin-top: 14px;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .menuMedia li {
+  font-weight: 450;
+  padding-left: 10px;
+  -webkit-padding-after: 5px;
+          padding-block-end: 5px;
+  color: gray;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .Dropdown .menuMedia li:hover {
+  cursor: pointer;
+  color: #006eff;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .NavLink {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbarWeb .Navbar .Collapse .Nav .NavItem .NavLink:hover {
+  cursor: pointer;
+  color: #006eff;
+}
+/*# sourceMappingURL=navbar.css.map */

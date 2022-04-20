@@ -1,0 +1,68 @@
+.main {
+  padding-top: 106px;
+  border-top: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    padding-top: 0px;
+  }
+}
+
+.main .slidesWeb .line {
+  background-color: aqua;
+}
+
+.main .slidesWeb .slidesTitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .slidesWeb .slidesTitle {
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+}
+
+.main .slidesWeb .owl-theme .owl-stage {
+  left: 61%;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .slidesWeb .owl-theme .owl-stage {
+    left: 88%;
+  }
+}
+
+.main .slidesWeb .owl-theme .Card .CardImgOverlay .exploretrip {
+  padding-top: 150%;
+  letter-spacing: 3px;
+}
+
+.main .slidesWeb .owl-theme .Card:hover {
+  cursor: pointer;
+}
+
+.main .slidesWeb .owl-theme .owl-nav {
+  display: block;
+  font-size: 50px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main .slidesWeb .owl-theme .owl-nav {
+    display: none;
+  }
+}
+
+.main .slidesWeb .owl-theme .owl-nav button.owl-prev {
+  margin-right: 50px;
+}
+
+.main .slidesWeb .owl-theme .owl-dots {
+  display: none;
+}
+/*# sourceMappingURL=slides.css.map */
