@@ -1,5 +1,7 @@
 # STUCEL-FE Test
 
+deploy: https://stucel-fet-gdeznt0k8-satriokamaludin.vercel.app/
+
 Responsive Web Use: \
 Web: 1920x1080 \
 Mobile: 480x854
